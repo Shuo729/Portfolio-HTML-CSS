@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav id="navi-bar">
+      <div class="logo">Personal Portfolio  |  Shuo Wang</div>
+      <div>
+        <!-- Navi bar content -->
+        <ul class="navi-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#exp">Experience</a></li>
+          <li><a href="#proj">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Profile section start -->
+    <section id="profile">
+
+      <!-- Welcome message -->
+      <div class="section_text">
+        <p class="section_text_p1"><b>Hello There, My Name is <span>Shuo Wang</span></b></p>
+        <p class="section_text_p2"><b>A Software Developer</b></p>
+        <p class="section_text_p3"><b>Welcome To My <span>Personal Portfolio</span></b></p>
+
+        <!-- Link container -->
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1fgDswcZ_U3c8JS1akbVBlyzf1Md1nmkL/view?usp=sharing')"
+          >
+            My Resume
+          </button>
+
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Me
+          </button>
+        </div>
+
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/jesse-w-5576912b6/'"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Profile section end -->
+
+    <!-- About section start -->
+    <section id="about">
+      <!-- page break -->
+      <img src="./assets/page break.jpg" class="page-break">
+      <!-- main text -->
+      <h1 class="title">Know More About Me</h1>
+
+      <!-- Primary container -->
+      <div class="section-container">
+        <!-- Profile pic section -->
+        <div class="section_pic-container">
+          <img
+            src="./assets/mypic2e.jpg"
+            alt="Profile Picture"
+            class="about-pic"
+          />
+        </div>
+
+        <!-- Container for experience and education background -->
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years Frontend Development</p>
+              <p>2+ years Backend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Pursuing B.S Bachelors Degree</p>
+            </div>
+          </div>
+          <!-- This is an example text -->
+          <div class="text-container">
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random 
+              text. It has roots in a piece of classical Latin literature 
+              from 45 BC, making it over 2000 years old. Richard McClintock,
+              a Latin professor at Hampden-Sydney College in Virginia, 
+              looked up one of the more obscure Latin words, consectetur,
+              from a Lorem Ipsum passage, and going through the cites of
+              the word in classical literature, discovered the undoubtable
+              source.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- button to the next page -->
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#exp'"
+      />
+    </section>
+    <!-- About section end -->
+
+    <!-- Experience section start -->
+    <section id="exp">
+      <!-- page break -->
+      <img src="./assets/page break.jpg" class="page-break">
+      <!-- main text -->
+      <p class="section_text_p2">Discover My</p>
+      <h1 class="title">Experience</h1>
+      <!-- A container contains two main parts -->
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Frontend experience container -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <!-- A container contains specific experience -->
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/terminal.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/terminal.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/terminal.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Backend experience container -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <!-- A container contains specific experience -->
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/terminal.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/terminal.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/terminal.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/terminal.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/terminal.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DSA</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- button to the next page -->
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#proj'"
+      />
+      <p class="section_text_p3">It's Time To See</p>
+      <h3 class="title2">My Projects</h1>
+    </section>
+    <!-- Experience section end -->
+
+    <!-- project section start -->
+    <section id="proj">
+      <!-- page break -->
+      <img src="./assets/page break.jpg" class="page-break">
+      <!-- main text -->
+      <p class="section_text_p2">Browse My Completed</p>
+      <h1 class="title">Projects</h1>
+      <!-- A container contains three project containers -->
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- First project -->
+          <div class="details-container color-container">
+            <!-- Project detail -->
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+            </div>
+    
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <!-- button link to the project -->
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Shuo729'">
+                Show Me
+              </button>
+            </div>
+          </div>
+    
+          <!-- Second project -->
+          <div class="details-container color-container">
+            <!-- Project detail -->
+            <div class="article-container">
+              <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+            </div>
+    
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <!-- button link to the project -->
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Shuo729'">
+                Show Me
+              </button>
+            </div>
+          </div>
+    
+          <!-- Third project -->
+          <div class="details-container color-container">
+            <!-- Project detail -->
+            <div class="article-container">
+              <img src="./assets/project-3.png" alt="Project 3" class="project-img">
+            </div>
+    
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <!-- button link to the project -->
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Shuo729'">
+                Show Me
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Icon to the next page -->
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <!-- Project section end -->
+
+    <!-- Contact Section Start -->
+    <section id="contact">
+      <!-- page break -->
+      <img src="./assets/page break.jpg" class="page-break">
+      <!-- Main text -->
+      <p class="section_text_p2">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <!-- Container for two contact info -->
+      <div class="contact-info-upper-container">
+        <!-- First contact -->
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:jwinus2790@gmail.com" class="a1">jwinus2790@gmail.com</a></p>
+        </div>
+        <!-- Second contact -->
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/jesse-w-5576912b6/" class="a1">LinkedIn</a></p>
+        </div>
+
+        <!-- Third contact -->
+        <div class="contact-info-container">
+          <img
+            src="./assets/twitter.png"
+            alt="X icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://twitter.com/JesseW647133" class="a1">Twitter</a></p>
+        </div>
+      </div>
+
+      <!-- Home button, back to navi bar -->
+      <img
+        src="./assets/home.png"
+        alt="Home icon"
+        class="icon home"
+        onclick="location.href='./#navi-bar'"
+      />
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer begin -->
+    <footer>
+      <p>Copyright &#169; 2024 Shuo Wang. All Rights Reserved.</p>
+    </footer>
+    <!-- Footer end -->
+  </body>
+</html>

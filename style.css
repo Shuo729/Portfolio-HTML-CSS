@@ -1,0 +1,398 @@
+/*This is a universal style*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+/*Set Transition*/
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/*Set Navigation bar*/
+nav,
+.navi-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  background-image: url("./assets/navi\ bar\ background.jpg");
+}
+
+.navi-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: aqua;
+}
+
+.logo {
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+
+  width: 80%;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  height: 80vh;
+  background-image: url("./assets/white.png");
+  background-position: center;
+  background-size: cover;
+  margin: 0 0;
+}
+
+.section_pic-container {
+  display: flex;
+  height: 600px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section_text {
+  align-self: center;
+  text-align: center;
+}
+
+.section-text p {
+  font-weight: 600;
+}
+
+.section_text_p1 {
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.section_text_p2 {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 3vh;
+}
+
+.section_text_p3 {
+  text-align: center;
+  font-size: 1.75rem;
+  color: rgb(85, 85, 85);
+  padding-top: 14vh;
+  margin-bottom: 1rem;
+}
+
+.title{
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 1.5vh;
+}
+
+span{
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  color: black;
+  font-weight: 700;
+}
+
+.title2 {
+  font-size: 1.75rem;
+  text-align: center;
+  color: rgb(63, 63, 63);
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/*Icon Setup*/
+
+.icon {
+  cursor: pointer;
+  height: 3rem;
+}
+
+/*Button*/
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(0, 0, 0) 0.2rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1:hover, .btn-color-2:hover {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+
+.btn-color-1, .btn-color-2 {
+  background: white;
+}
+
+
+.btn-container {
+  gap: 1rem;
+}
+
+/*About Section Style*/
+#about {
+  position: relative;
+  padding-top: 3vh;
+}
+
+.about-containers {
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+
+.arrow, .home {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.page-break {
+  width: 100%;
+}
+
+.details-container {
+  padding: 1rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 10vh;
+  height: 80%;
+}
+
+.section_pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+  padding-left: 16vh;
+}
+
+/* Experience Section Set up */
+#exp {
+  position: relative;
+  padding-top: 3vh;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 8vh;
+  padding-bottom: 3vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  gap: 3rem;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
+/*Project Section Set up*/
+#proj {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 80%;
+  height: 60%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/* Contact Section Set up */
+#contact {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+  width: 4vh;
+  height: 4vh;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+.a1 {
+  color: rgb(53, 53, 53);
+  text-decoration: none;
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+.a1:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(253, 18, 18);
+}
+
+/* Footer Section */
+footer p{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 2rem;
+}
